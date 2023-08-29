@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone hunter</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header>
+   <div class="flex justify-center gap-6 my-5">
+    <input type="search" placeholder="look for phones" class="input input-info focus:outline-none w-full max-w-xs" id="search" /> 
+    <input class="btn bg-teal-600 text-white
+    " type="submit" value="search" onclick="search(this)" >
+   </div>
+  </header>
+  <main id="main" class="flex flex-wrap gap-5 justify-center items-center
+  ">
+  <span class="loading loading-dots loading-lg h-screen w-1/12"></span>
+</main>
+<footer>
+  
+  <div id="modal">
+    
+  </div>
+  </div>
+  </footer>
+
+  <script src="phone.js"></script>
+</body>
+
+</html>
